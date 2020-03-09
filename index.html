@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alpha Project</title>
+</head>
+
+<body>
+
+<div id="principal" class="flex">
+
+    <div id="relogio">
+
+        <div id="dentro-relogio">
+
+        <div id="timer">
+
+            <h2 id="min">00</h2>
+            <h2 id="seg">00</h2>
+
+        </div>
+
+            <h2>Tempo Restante</h2>
+
+        </div>
+
+
+    </div>
+
+    <div id="opcoes">
+
+        <input type="button" value="25/5" class="botoes" id="vinte" onclick="defineValor(25)">
+        <input type="button" value="30/5" class="botoes" id="vinteCinco" onclick="defineValor(30)">
+        <input type="button" value="20/5" class="botoes" id="trinta" onclick="defineValor(20)">
+        <div id="botoes-menores">
+        <input type="button" id="som-mute" onclick="defineValor(0)" value="mute">
+        <input type="button" id="reset" onClick="history.go(0)" value="reset">
+        </div>
+
+    </div>
+
+    <div id="texto">
+
+        <h2>Sobre o Site</h2>
+
+        <p>Este site tem como objetivo te ajudar a ser mais produtivo através do da técnica de Pomodoro, onde você trabalha/estuda por um período de tempo (geralmente entre 20 a 30 minutos) e descansa por 5 minutos e então reinicia o ciclo.</p>
+        <h2>Como usar</h2>
+        <p>Basta selecionar o tempo desejado clicando em algum dos botoes que então o cronometro iniciará.</p>
+        <p>O site reproduzirá um som quando o tempo acabar. Essa opção pode ser desabilitada clicando no botão "mute", abaixo das opções de tempo.</p>
+
+    </div>
+
+</div>
+
+<audio src="alarm/alarm.mp3"></audio>
+
+<script src="js/jacont.js"></script>
+
+</body>
+</html>
