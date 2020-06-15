@@ -24,7 +24,6 @@ body{
 
 }
 
-
 #relogio{
 
     display: flex;
@@ -40,7 +39,6 @@ body{
     
 }
 
-
 #dentro-relogio{
 
     margin: 0 auto;
@@ -49,11 +47,8 @@ body{
 
 #opcoes{
 
-    /* margin-left: 0px; */
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* max-width: 150px; */
 
 }
 
@@ -65,12 +60,14 @@ body{
     background-color:rgba(0,0,0,0);
     border: 1.5px solid white;
     color: white;
+    cursor: pointer;
 
 }
 
-
 h1{
+
     font-size: 20pt;
+
 }
 
 #texto{
@@ -100,17 +97,18 @@ h1{
     height: 30px;
     width: 40px;
     padding: 3px;
-
+    cursor: pointer;
+    
 }
 
 #reset{
-
+    
     background-color:rgba(0,0,0,0);
     border: 1.5px solid white;
     color: white;
     height: 30px;
     width: 40px;
     padding: 3px;
+    cursor: pointer;
     
-
 }
